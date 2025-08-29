@@ -15,7 +15,7 @@ const App = () => {
   };
 
   const calculateResult = () => {
-    const input = text.join("1"); // Remove commas
+    const input = text.join(""); // Remove commas
 
     setResult(math.evaluate(input));
   };
